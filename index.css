@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.section1 {
+  background-color: #6943ff;
+  text-align: center;
+  height: 285px;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+
+  margin: 0;
+  color: white;
+  padding: 31px 51px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+/* .input-val {
+  width: 117px;
+  height: 83px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+} */
+
+input {
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  width: 117px;
+  height: 83px;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  background-color: #6943ff;
+}
+/* remove the arros */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin-top: 26.77px;
+  width: 117px;
+  height: 42px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* section2 */
+
+.section2 {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23.6px;
+  padding: 36px 25px;
+}
+.card {
+  text-align: center;
+  background-color: #273549;
+  width: 500px;
+  height: 108.57px;
+}
+
+h2 {
+  margin-top: 32px;
+  margin-bottom: 9px;
+  color: #ccc1ff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.res {
+  margin-bottom: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
